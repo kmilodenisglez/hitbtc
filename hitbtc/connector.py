@@ -2,7 +2,7 @@
 
 import logging
 import time
-import json
+import orjson as json
 import hmac
 import hashlib
 from threading import Timer

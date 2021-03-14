@@ -1,6 +1,10 @@
 # hitbtc
 HitBTC Websocket API 2.0 Client written in Python 3.
 
+This client is a fork, we have replaced the use of some libraries to get performance improvements:
+
+## Replaced libraries
++ [json](https://docs.python.org/3/library/json.html) by [orjson](https://github.com/ijl/orjson#performance)
 
 The client supplies data both visually via console, as well as python objects via its `HitBTC.recv()`.
 It's important to note that this does not receive data from the API directly -
