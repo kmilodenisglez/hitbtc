@@ -8,7 +8,7 @@ from queue import Queue
 from threading import Thread, Timer
 import multiprocessing as mp
 
-import json
+import orjson as json
 import time
 import ssl
 
